@@ -15,10 +15,11 @@ public class Rocket : MonoBehaviour
 
     void Update()
     {
-        ProcessInput();
+        Launch();
+        Rotation();
     }
 
-    void ProcessInput()
+    void Launch()
     {
         if (Input.GetKey(KeyCode.Space))
         {
@@ -33,6 +34,10 @@ public class Rocket : MonoBehaviour
         {
             audioSource.Pause();
         }
+    }
+    void Rotation()
+    {
+        rigidBody.freezeRotation = true;
         if (Input.GetKey(KeyCode.A))
         {
             transform.Rotate(Vector3.forward);
@@ -42,5 +47,6 @@ public class Rocket : MonoBehaviour
         {
             transform.Rotate(-Vector3.forward);
         }
+        rigidBody.freezeRotation = false;
     }
 }
