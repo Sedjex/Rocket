@@ -355,7 +355,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 822977806160380453, guid: 22e42310838934174b7ea245cfccbc54, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.34
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 822977806160380453, guid: 22e42310838934174b7ea245cfccbc54, type: 3}
       propertyPath: m_LocalPosition.y
@@ -363,7 +363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 822977806160380453, guid: 22e42310838934174b7ea245cfccbc54, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.72
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 822977806160380453, guid: 22e42310838934174b7ea245cfccbc54, type: 3}
       propertyPath: m_LocalRotation.w
@@ -467,9 +467,13 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1523664704, guid: 219a2e8c7fbad4e239fbec1afa37c387, type: 3}
-      propertyPath: m_Drag
-      value: 0.5
+    - target: {fileID: 1523664705, guid: 219a2e8c7fbad4e239fbec1afa37c387, type: 3}
+      propertyPath: flySpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1523664705, guid: 219a2e8c7fbad4e239fbec1afa37c387, type: 3}
+      propertyPath: rotSpeed
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5377765121404672829, guid: 219a2e8c7fbad4e239fbec1afa37c387, type: 3}
       propertyPath: m_Name
